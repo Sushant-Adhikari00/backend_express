@@ -1,0 +1,53 @@
+{
+  "coverage": "48.38%",
+  "expectCount": 31,
+  "actualCount": 15,
+  "files": {
+    "controller/adminController.js": {
+      "expectCount": 7,
+      "actualCount": 4,
+      "undocumentLines": [
+        1,
+        2,
+        3
+      ]
+    },
+    "controller/commentController.js": {
+      "expectCount": 5,
+      "actualCount": 2,
+      "undocumentLines": [
+        1,
+        2,
+        3
+      ]
+    },
+    "controller/feedbackController.js": {
+      "expectCount": 4,
+      "actualCount": 2,
+      "undocumentLines": [
+        1,
+        2
+      ]
+    },
+    "controller/ratingController.js": {
+      "expectCount": 5,
+      "actualCount": 2,
+      "undocumentLines": [
+        1,
+        2,
+        3
+      ]
+    },
+    "controller/userController.js": {
+      "expectCount": 10,
+      "actualCount": 5,
+      "undocumentLines": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  }
+}

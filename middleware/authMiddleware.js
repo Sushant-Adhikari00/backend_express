@@ -1,6 +1,7 @@
 const jwt = require("jsonwebtoken");
 const asyncHandler = require("express-async-handler");
 const User = require("../models/userModel");
+const { constants } = require("../constants");
 
 const protect = asyncHandler(async (req, res, next) => {
     let token;
@@ -23,7 +24,11 @@ const protect = asyncHandler(async (req, res, next) => {
         } catch (error) {
             console.error(error);
             res.status(401);
-            throw new Error("Not authorized, token failed");
+            if (error.name === 'TokenExpiredError') {
+                throw new Error('Not authorized, token expired');
+            } else {
+                throw new Error("Not authorized, token invalid");
+            }
         }
     }
 
@@ -34,7 +39,7 @@ const protect = asyncHandler(async (req, res, next) => {
 });
 
 const admin = (req, res, next) => {
-    if (req.user && req.user.role === "admin") {
+    if (req.user && req.user.role === constants.ADMIN_ROLE) {
         next();
     } else {
         res.status(401);

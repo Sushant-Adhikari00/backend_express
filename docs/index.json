@@ -1,0 +1,2139 @@
+[
+  {
+    "__docId__": 1,
+    "kind": "external",
+    "name": "Infinity",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity",
+    "memberof": "controller/.external-ecmascript.js",
+    "static": true,
+    "longname": "controller/.external-ecmascript.js~Infinity",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 2,
+    "kind": "external",
+    "name": "NaN",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN",
+    "memberof": "controller/.external-ecmascript.js",
+    "static": true,
+    "longname": "controller/.external-ecmascript.js~NaN",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 3,
+    "kind": "external",
+    "name": "undefined",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined",
+    "memberof": "controller/.external-ecmascript.js",
+    "static": true,
+    "longname": "controller/.external-ecmascript.js~undefined",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 4,
+    "kind": "external",
+    "name": "null",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null",
+    "memberof": "controller/.external-ecmascript.js",
+    "static": true,
+    "longname": "controller/.external-ecmascript.js~null",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 5,
+    "kind": "external",
+    "name": "Object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "controller/.external-ecmascript.js",
+    "static": true,
+    "longname": "controller/.external-ecmascript.js~Object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 6,
+    "kind": "external",
+    "name": "object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "controller/.external-ecmascript.js",
+    "static": true,
+    "longname": "controller/.external-ecmascript.js~object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 7,
+    "kind": "external",
+    "name": "Function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "controller/.external-ecmascript.js",
+    "static": true,
+    "longname": "controller/.external-ecmascript.js~Function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 8,
+    "kind": "external",
+    "name": "function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "controller/.external-ecmascript.js",
+    "static": true,
+    "longname": "controller/.external-ecmascript.js~function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 9,
+    "kind": "external",
+    "name": "Boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "controller/.external-ecmascript.js",
+    "static": true,
+    "longname": "controller/.external-ecmascript.js~Boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 10,
+    "kind": "external",
+    "name": "boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "controller/.external-ecmascript.js",
+    "static": true,
+    "longname": "controller/.external-ecmascript.js~boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 11,
+    "kind": "external",
+    "name": "Symbol",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol",
+    "memberof": "controller/.external-ecmascript.js",
+    "static": true,
+    "longname": "controller/.external-ecmascript.js~Symbol",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 12,
+    "kind": "external",
+    "name": "Error",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error",
+    "memberof": "controller/.external-ecmascript.js",
+    "static": true,
+    "longname": "controller/.external-ecmascript.js~Error",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 13,
+    "kind": "external",
+    "name": "EvalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/EvalError",
+    "memberof": "controller/.external-ecmascript.js",
+    "static": true,
+    "longname": "controller/.external-ecmascript.js~EvalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 14,
+    "kind": "external",
+    "name": "InternalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/InternalError",
+    "memberof": "controller/.external-ecmascript.js",
+    "static": true,
+    "longname": "controller/.external-ecmascript.js~InternalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 15,
+    "kind": "external",
+    "name": "RangeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RangeError",
+    "memberof": "controller/.external-ecmascript.js",
+    "static": true,
+    "longname": "controller/.external-ecmascript.js~RangeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 16,
+    "kind": "external",
+    "name": "ReferenceError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError",
+    "memberof": "controller/.external-ecmascript.js",
+    "static": true,
+    "longname": "controller/.external-ecmascript.js~ReferenceError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 17,
+    "kind": "external",
+    "name": "SyntaxError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError",
+    "memberof": "controller/.external-ecmascript.js",
+    "static": true,
+    "longname": "controller/.external-ecmascript.js~SyntaxError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 18,
+    "kind": "external",
+    "name": "TypeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError",
+    "memberof": "controller/.external-ecmascript.js",
+    "static": true,
+    "longname": "controller/.external-ecmascript.js~TypeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 19,
+    "kind": "external",
+    "name": "URIError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/URIError",
+    "memberof": "controller/.external-ecmascript.js",
+    "static": true,
+    "longname": "controller/.external-ecmascript.js~URIError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 20,
+    "kind": "external",
+    "name": "Number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "controller/.external-ecmascript.js",
+    "static": true,
+    "longname": "controller/.external-ecmascript.js~Number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 21,
+    "kind": "external",
+    "name": "number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "controller/.external-ecmascript.js",
+    "static": true,
+    "longname": "controller/.external-ecmascript.js~number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 22,
+    "kind": "external",
+    "name": "Date",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date",
+    "memberof": "controller/.external-ecmascript.js",
+    "static": true,
+    "longname": "controller/.external-ecmascript.js~Date",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 23,
+    "kind": "external",
+    "name": "String",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "controller/.external-ecmascript.js",
+    "static": true,
+    "longname": "controller/.external-ecmascript.js~String",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 24,
+    "kind": "external",
+    "name": "string",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "controller/.external-ecmascript.js",
+    "static": true,
+    "longname": "controller/.external-ecmascript.js~string",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 25,
+    "kind": "external",
+    "name": "RegExp",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp",
+    "memberof": "controller/.external-ecmascript.js",
+    "static": true,
+    "longname": "controller/.external-ecmascript.js~RegExp",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 26,
+    "kind": "external",
+    "name": "Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
+    "memberof": "controller/.external-ecmascript.js",
+    "static": true,
+    "longname": "controller/.external-ecmascript.js~Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 27,
+    "kind": "external",
+    "name": "Int8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int8Array",
+    "memberof": "controller/.external-ecmascript.js",
+    "static": true,
+    "longname": "controller/.external-ecmascript.js~Int8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 28,
+    "kind": "external",
+    "name": "Uint8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array",
+    "memberof": "controller/.external-ecmascript.js",
+    "static": true,
+    "longname": "controller/.external-ecmascript.js~Uint8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 29,
+    "kind": "external",
+    "name": "Uint8ClampedArray",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8ClampedArray",
+    "memberof": "controller/.external-ecmascript.js",
+    "static": true,
+    "longname": "controller/.external-ecmascript.js~Uint8ClampedArray",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 30,
+    "kind": "external",
+    "name": "Int16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int16Array",
+    "memberof": "controller/.external-ecmascript.js",
+    "static": true,
+    "longname": "controller/.external-ecmascript.js~Int16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 31,
+    "kind": "external",
+    "name": "Uint16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint16Array",
+    "memberof": "controller/.external-ecmascript.js",
+    "static": true,
+    "longname": "controller/.external-ecmascript.js~Uint16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 32,
+    "kind": "external",
+    "name": "Int32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int32Array",
+    "memberof": "controller/.external-ecmascript.js",
+    "static": true,
+    "longname": "controller/.external-ecmascript.js~Int32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 33,
+    "kind": "external",
+    "name": "Uint32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint32Array",
+    "memberof": "controller/.external-ecmascript.js",
+    "static": true,
+    "longname": "controller/.external-ecmascript.js~Uint32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 34,
+    "kind": "external",
+    "name": "Float32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float32Array",
+    "memberof": "controller/.external-ecmascript.js",
+    "static": true,
+    "longname": "controller/.external-ecmascript.js~Float32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 35,
+    "kind": "external",
+    "name": "Float64Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float64Array",
+    "memberof": "controller/.external-ecmascript.js",
+    "static": true,
+    "longname": "controller/.external-ecmascript.js~Float64Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 36,
+    "kind": "external",
+    "name": "Map",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map",
+    "memberof": "controller/.external-ecmascript.js",
+    "static": true,
+    "longname": "controller/.external-ecmascript.js~Map",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 37,
+    "kind": "external",
+    "name": "Set",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set",
+    "memberof": "controller/.external-ecmascript.js",
+    "static": true,
+    "longname": "controller/.external-ecmascript.js~Set",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 38,
+    "kind": "external",
+    "name": "WeakMap",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap",
+    "memberof": "controller/.external-ecmascript.js",
+    "static": true,
+    "longname": "controller/.external-ecmascript.js~WeakMap",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 39,
+    "kind": "external",
+    "name": "WeakSet",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakSet",
+    "memberof": "controller/.external-ecmascript.js",
+    "static": true,
+    "longname": "controller/.external-ecmascript.js~WeakSet",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 40,
+    "kind": "external",
+    "name": "ArrayBuffer",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer",
+    "memberof": "controller/.external-ecmascript.js",
+    "static": true,
+    "longname": "controller/.external-ecmascript.js~ArrayBuffer",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 41,
+    "kind": "external",
+    "name": "DataView",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DataView",
+    "memberof": "controller/.external-ecmascript.js",
+    "static": true,
+    "longname": "controller/.external-ecmascript.js~DataView",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 42,
+    "kind": "external",
+    "name": "JSON",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON",
+    "memberof": "controller/.external-ecmascript.js",
+    "static": true,
+    "longname": "controller/.external-ecmascript.js~JSON",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 43,
+    "kind": "external",
+    "name": "Promise",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
+    "memberof": "controller/.external-ecmascript.js",
+    "static": true,
+    "longname": "controller/.external-ecmascript.js~Promise",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 44,
+    "kind": "external",
+    "name": "Generator",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator",
+    "memberof": "controller/.external-ecmascript.js",
+    "static": true,
+    "longname": "controller/.external-ecmascript.js~Generator",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 45,
+    "kind": "external",
+    "name": "GeneratorFunction",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/GeneratorFunction",
+    "memberof": "controller/.external-ecmascript.js",
+    "static": true,
+    "longname": "controller/.external-ecmascript.js~GeneratorFunction",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 46,
+    "kind": "external",
+    "name": "Reflect",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect",
+    "memberof": "controller/.external-ecmascript.js",
+    "static": true,
+    "longname": "controller/.external-ecmascript.js~Reflect",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 47,
+    "kind": "external",
+    "name": "Proxy",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy",
+    "memberof": "controller/.external-ecmascript.js",
+    "static": true,
+    "longname": "controller/.external-ecmascript.js~Proxy",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 48,
+    "kind": "file",
+    "name": "controller/adminController.js",
+    "content": "const asyncHandler = require(\"express-async-handler\");\nconst User = require(\"../models/userModel\");\nconst Note = require(\"../models/noteModel\");\n\n/**\n * @desc    Get all users\n * @route   GET /api/admin/users\n * @access  Private/Admin\n * @param {object} req - Express request object\n * @param {object} res - Express response object\n * @returns {object} 200 - An array of user objects\n */\nconst getUsers = asyncHandler(async (req, res) => {\n    const users = await User.find({});\n    res.json(users);\n});\n\n/**\n * @desc    Update user role\n * @route   PUT /api/admin/users/:id\n * @access  Private/Admin\n * @param {object} req - Express request object\n * @param {object} res - Express response object\n * @param {string} req.params.id - The ID of the user to update\n * @param {string} req.body.role - The new role for the user\n * @returns {object} 200 - The updated user object\n * @returns {Error}  404 - User not found\n */\nconst updateUserRole = asyncHandler(async (req, res) => {\n    const user = await User.findById(req.params.id);\n\n    if (user) {\n        user.role = req.body.role || user.role;\n        const updatedUser = await user.save();\n        res.json({\n            _id: updatedUser._id,\n            name: updatedUser.name,\n            email: updatedUser.email,\n            role: updatedUser.role,\n        });\n    } else {\n        res.status(404);\n        throw new Error(\"User not found\");\n    }\n});\n\n/**\n * @desc    Get all notes (for admin review)\n * @route   GET /api/admin/notes\n * @access  Private/Admin\n * @param {object} req - Express request object\n * @param {object} res - Express response object\n * @returns {object} 200 - An array of note objects\n */\nconst getNotesForAdmin = asyncHandler(async (req, res) => {\n    const notes = await Note.find({}).populate(\"user\", \"name email\");\n    res.json(notes);\n});\n\n/**\n * @desc    Update note status (approve/reject)\n * @route   PUT /api/admin/notes/:id/status\n * @access  Private/Admin\n * @param {object} req - Express request object\n * @param {object} res - Express response object\n * @param {string} req.params.id - The ID of the note to update\n * @param {string} req.body.status - The new status for the note\n * @returns {object} 200 - The updated note object\n * @returns {Error}  404 - Note not found\n */\nconst updateNoteStatus = asyncHandler(async (req, res) => {\n    const note = await Note.findById(req.params.id);\n\n    if (note) {\n        note.status = req.body.status || note.status;\n        const updatedNote = await note.save();\n        res.json(updatedNote);\n    } else {\n        res.status(404);\n        throw new Error(\"Note not found\");\n    }\n});\n\nmodule.exports = { getUsers, updateUserRole, getNotesForAdmin, updateNoteStatus };\n",
+    "static": true,
+    "longname": "D:/6th sem/express/controller/adminController.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 49,
+    "kind": "variable",
+    "name": "asyncHandler",
+    "memberof": "controller/adminController.js",
+    "static": true,
+    "longname": "controller/adminController.js~asyncHandler",
+    "access": "public",
+    "export": false,
+    "importPath": "note_sharing_backend_api/controller/adminController.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 50,
+    "kind": "variable",
+    "name": "User",
+    "memberof": "controller/adminController.js",
+    "static": true,
+    "longname": "controller/adminController.js~User",
+    "access": "public",
+    "export": false,
+    "importPath": "note_sharing_backend_api/controller/adminController.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 2,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 51,
+    "kind": "variable",
+    "name": "Note",
+    "memberof": "controller/adminController.js",
+    "static": true,
+    "longname": "controller/adminController.js~Note",
+    "access": "public",
+    "export": false,
+    "importPath": "note_sharing_backend_api/controller/adminController.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 52,
+    "kind": "variable",
+    "name": "getUsers",
+    "memberof": "controller/adminController.js",
+    "static": true,
+    "longname": "controller/adminController.js~getUsers",
+    "access": " Private/Admin",
+    "export": false,
+    "importPath": "note_sharing_backend_api/controller/adminController.js",
+    "importStyle": null,
+    "description": "   Get all users",
+    "lineNumber": 13,
+    "unknown": [
+      {
+        "tagName": "@route",
+        "tagValue": "  GET /api/admin/users"
+      },
+      {
+        "tagName": "@returns",
+        "tagValue": "{object} 200 - An array of user objects"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "req",
+        "description": "Express request object"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "res",
+        "description": "Express response object"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "object"
+      ],
+      "spread": false,
+      "description": "200 - An array of user objects"
+    },
+    "ignore": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 53,
+    "kind": "variable",
+    "name": "updateUserRole",
+    "memberof": "controller/adminController.js",
+    "static": true,
+    "longname": "controller/adminController.js~updateUserRole",
+    "access": " Private/Admin",
+    "export": false,
+    "importPath": "note_sharing_backend_api/controller/adminController.js",
+    "importStyle": null,
+    "description": "   Update user role",
+    "lineNumber": 29,
+    "unknown": [
+      {
+        "tagName": "@route",
+        "tagValue": "  PUT /api/admin/users/:id"
+      },
+      {
+        "tagName": "@returns",
+        "tagValue": "{object} 200 - The updated user object"
+      },
+      {
+        "tagName": "@returns",
+        "tagValue": "{Error}  404 - User not found"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "req",
+        "description": "Express request object"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "res",
+        "description": "Express response object"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "req.params.id",
+        "description": "The ID of the user to update"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "req.body.role",
+        "description": "The new role for the user"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Error"
+      ],
+      "spread": false,
+      "description": "404 - User not found"
+    },
+    "ignore": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 54,
+    "kind": "variable",
+    "name": "getNotesForAdmin",
+    "memberof": "controller/adminController.js",
+    "static": true,
+    "longname": "controller/adminController.js~getNotesForAdmin",
+    "access": " Private/Admin",
+    "export": false,
+    "importPath": "note_sharing_backend_api/controller/adminController.js",
+    "importStyle": null,
+    "description": "   Get all notes (for admin review)",
+    "lineNumber": 55,
+    "unknown": [
+      {
+        "tagName": "@route",
+        "tagValue": "  GET /api/admin/notes"
+      },
+      {
+        "tagName": "@returns",
+        "tagValue": "{object} 200 - An array of note objects"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "req",
+        "description": "Express request object"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "res",
+        "description": "Express response object"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "object"
+      ],
+      "spread": false,
+      "description": "200 - An array of note objects"
+    },
+    "ignore": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 55,
+    "kind": "variable",
+    "name": "updateNoteStatus",
+    "memberof": "controller/adminController.js",
+    "static": true,
+    "longname": "controller/adminController.js~updateNoteStatus",
+    "access": " Private/Admin",
+    "export": false,
+    "importPath": "note_sharing_backend_api/controller/adminController.js",
+    "importStyle": null,
+    "description": "   Update note status (approve/reject)",
+    "lineNumber": 71,
+    "unknown": [
+      {
+        "tagName": "@route",
+        "tagValue": "  PUT /api/admin/notes/:id/status"
+      },
+      {
+        "tagName": "@returns",
+        "tagValue": "{object} 200 - The updated note object"
+      },
+      {
+        "tagName": "@returns",
+        "tagValue": "{Error}  404 - Note not found"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "req",
+        "description": "Express request object"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "res",
+        "description": "Express response object"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "req.params.id",
+        "description": "The ID of the note to update"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "req.body.status",
+        "description": "The new status for the note"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Error"
+      ],
+      "spread": false,
+      "description": "404 - Note not found"
+    },
+    "ignore": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 56,
+    "kind": "file",
+    "name": "controller/commentController.js",
+    "content": "const asyncHandler = require(\"express-async-handler\");\nconst Comment = require(\"../models/commentModel\");\nconst Note = require(\"../models/noteModel\");\n\n/**\n * @desc    Get comments for a note\n * @route   GET /api/notes/:noteId/comments\n * @access  Public\n * @param {object} req - Express request object\n * @param {object} res - Express response object\n * @param {string} req.params.noteId - The ID of the note\n * @returns {object} 200 - An array of comment objects\n */\nconst getComments = asyncHandler(async (req, res) => {\n    const comments = await Comment.find({ note: req.params.noteId }).populate(\"user\", \"name\");\n    res.status(200).json(comments);\n});\n\n/**\n * @desc    Add a comment to a note\n * @route   POST /api/notes/:noteId/comments\n * @access  Private\n * @param {object} req - Express request object\n * @param {object} res - Express response object\n * @param {string} req.params.noteId - The ID of the note\n * @param {string} req.body.text - The text of the comment\n * @returns {object} 201 - The created comment object\n * @returns {Error}  404 - Note not found\n */\nconst addComment = asyncHandler(async (req, res) => {\n    const { text } = req.body;\n    const { noteId } = req.params;\n\n    const note = await Note.findById(noteId);\n\n    if (!note) {\n        res.status(404);\n        throw new Error(\"Note not found\");\n    }\n\n    const comment = await Comment.create({\n        text,\n        note: noteId,\n        user: req.user.id,\n    });\n\n    res.status(201).json(comment);\n});\n\nmodule.exports = { getComments, addComment };\n",
+    "static": true,
+    "longname": "D:/6th sem/express/controller/commentController.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 57,
+    "kind": "variable",
+    "name": "asyncHandler",
+    "memberof": "controller/commentController.js",
+    "static": true,
+    "longname": "controller/commentController.js~asyncHandler",
+    "access": "public",
+    "export": false,
+    "importPath": "note_sharing_backend_api/controller/commentController.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 58,
+    "kind": "variable",
+    "name": "Comment",
+    "memberof": "controller/commentController.js",
+    "static": true,
+    "longname": "controller/commentController.js~Comment",
+    "access": "public",
+    "export": false,
+    "importPath": "note_sharing_backend_api/controller/commentController.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 2,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 59,
+    "kind": "variable",
+    "name": "Note",
+    "memberof": "controller/commentController.js",
+    "static": true,
+    "longname": "controller/commentController.js~Note",
+    "access": "public",
+    "export": false,
+    "importPath": "note_sharing_backend_api/controller/commentController.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 60,
+    "kind": "variable",
+    "name": "getComments",
+    "memberof": "controller/commentController.js",
+    "static": true,
+    "longname": "controller/commentController.js~getComments",
+    "access": " Public",
+    "export": false,
+    "importPath": "note_sharing_backend_api/controller/commentController.js",
+    "importStyle": null,
+    "description": "   Get comments for a note",
+    "lineNumber": 14,
+    "unknown": [
+      {
+        "tagName": "@route",
+        "tagValue": "  GET /api/notes/:noteId/comments"
+      },
+      {
+        "tagName": "@returns",
+        "tagValue": "{object} 200 - An array of comment objects"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "req",
+        "description": "Express request object"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "res",
+        "description": "Express response object"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "req.params.noteId",
+        "description": "The ID of the note"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "object"
+      ],
+      "spread": false,
+      "description": "200 - An array of comment objects"
+    },
+    "ignore": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 61,
+    "kind": "variable",
+    "name": "addComment",
+    "memberof": "controller/commentController.js",
+    "static": true,
+    "longname": "controller/commentController.js~addComment",
+    "access": " Private",
+    "export": false,
+    "importPath": "note_sharing_backend_api/controller/commentController.js",
+    "importStyle": null,
+    "description": "   Add a comment to a note",
+    "lineNumber": 30,
+    "unknown": [
+      {
+        "tagName": "@route",
+        "tagValue": "  POST /api/notes/:noteId/comments"
+      },
+      {
+        "tagName": "@returns",
+        "tagValue": "{object} 201 - The created comment object"
+      },
+      {
+        "tagName": "@returns",
+        "tagValue": "{Error}  404 - Note not found"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "req",
+        "description": "Express request object"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "res",
+        "description": "Express response object"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "req.params.noteId",
+        "description": "The ID of the note"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "req.body.text",
+        "description": "The text of the comment"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Error"
+      ],
+      "spread": false,
+      "description": "404 - Note not found"
+    },
+    "ignore": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 62,
+    "kind": "file",
+    "name": "controller/feedbackController.js",
+    "content": "const asyncHandler = require(\"express-async-handler\");\nconst Feedback = require(\"../models/feedbackModel\");\n\n/**\n * @desc    Submit feedback\n * @route   POST /api/feedback\n * @access  Private\n * @param {object} req - Express request object\n * @param {object} res - Express response object\n * @param {string} req.body.subject - The subject of the feedback\n * @param {string} req.body.message - The message of the feedback\n * @returns {object} 201 - The created feedback object\n */\nconst submitFeedback = asyncHandler(async (req, res) => {\n    const { subject, message } = req.body;\n\n    const feedback = await Feedback.create({\n        user: req.user.id,\n        subject,\n        message,\n    });\n\n    res.status(201).json(feedback);\n});\n\n/**\n * @desc    Get all feedback (Admin only)\n * @route   GET /api/feedback\n * @access  Private/Admin\n * @param {object} req - Express request object\n * @param {object} res - Express response object\n * @returns {object} 200 - An array of feedback objects\n */\nconst getFeedback = asyncHandler(async (req, res) => {\n    const feedback = await Feedback.find({}).populate(\"user\", \"name email\");\n    res.json(feedback);\n});\n\nmodule.exports = { submitFeedback, getFeedback };\n",
+    "static": true,
+    "longname": "D:/6th sem/express/controller/feedbackController.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 63,
+    "kind": "variable",
+    "name": "asyncHandler",
+    "memberof": "controller/feedbackController.js",
+    "static": true,
+    "longname": "controller/feedbackController.js~asyncHandler",
+    "access": "public",
+    "export": false,
+    "importPath": "note_sharing_backend_api/controller/feedbackController.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 64,
+    "kind": "variable",
+    "name": "Feedback",
+    "memberof": "controller/feedbackController.js",
+    "static": true,
+    "longname": "controller/feedbackController.js~Feedback",
+    "access": "public",
+    "export": false,
+    "importPath": "note_sharing_backend_api/controller/feedbackController.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 2,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 65,
+    "kind": "variable",
+    "name": "submitFeedback",
+    "memberof": "controller/feedbackController.js",
+    "static": true,
+    "longname": "controller/feedbackController.js~submitFeedback",
+    "access": " Private",
+    "export": false,
+    "importPath": "note_sharing_backend_api/controller/feedbackController.js",
+    "importStyle": null,
+    "description": "   Submit feedback",
+    "lineNumber": 14,
+    "unknown": [
+      {
+        "tagName": "@route",
+        "tagValue": "  POST /api/feedback"
+      },
+      {
+        "tagName": "@returns",
+        "tagValue": "{object} 201 - The created feedback object"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "req",
+        "description": "Express request object"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "res",
+        "description": "Express response object"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "req.body.subject",
+        "description": "The subject of the feedback"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "req.body.message",
+        "description": "The message of the feedback"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "object"
+      ],
+      "spread": false,
+      "description": "201 - The created feedback object"
+    },
+    "ignore": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 66,
+    "kind": "variable",
+    "name": "getFeedback",
+    "memberof": "controller/feedbackController.js",
+    "static": true,
+    "longname": "controller/feedbackController.js~getFeedback",
+    "access": " Private/Admin",
+    "export": false,
+    "importPath": "note_sharing_backend_api/controller/feedbackController.js",
+    "importStyle": null,
+    "description": "   Get all feedback (Admin only)",
+    "lineNumber": 34,
+    "unknown": [
+      {
+        "tagName": "@route",
+        "tagValue": "  GET /api/feedback"
+      },
+      {
+        "tagName": "@returns",
+        "tagValue": "{object} 200 - An array of feedback objects"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "req",
+        "description": "Express request object"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "res",
+        "description": "Express response object"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "object"
+      ],
+      "spread": false,
+      "description": "200 - An array of feedback objects"
+    },
+    "ignore": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 67,
+    "kind": "file",
+    "name": "controller/ratingController.js",
+    "content": "const asyncHandler = require(\"express-async-handler\");\nconst Rating = require(\"../models/ratingModel\");\nconst Note = require(\"../models/noteModel\");\n\n/**\n * @desc    Get ratings for a note\n * @route   GET /api/notes/:noteId/ratings\n * @access  Public\n * @param {object} req - Express request object\n * @param {object} res - Express response object\n * @param {string} req.params.noteId - The ID of the note\n * @returns {object} 200 - An array of rating objects\n */\nconst getRatings = asyncHandler(async (req, res) => {\n    const ratings = await Rating.find({ note: req.params.noteId }).populate(\"user\", \"name\");\n    res.status(200).json(ratings);\n});\n\n/**\n * @desc    Add a rating to a note\n * @route   POST /api/notes/:noteId/ratings\n * @access  Private\n * @param {object} req - Express request object\n * @param {object} res - Express response object\n * @param {string} req.params.noteId - The ID of the note\n * @param {number} req.body.value - The rating value (e.g., 1-5)\n * @returns {object} 201 - The created rating object\n * @returns {Error}  404 - Note not found\n */\nconst addRating = asyncHandler(async (req, res) => {\n    const { value } = req.body;\n    const { noteId } = req.params;\n\n    const note = await Note.findById(noteId);\n\n    if (!note) {\n        res.status(404);\n        throw new Error(\"Note not found\");\n    }\n\n    const rating = await Rating.create({\n        value,\n        note: noteId,\n        user: req.user.id,\n    });\n\n    res.status(201).json(rating);\n});\n\nmodule.exports = { getRatings, addRating };\n",
+    "static": true,
+    "longname": "D:/6th sem/express/controller/ratingController.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 68,
+    "kind": "variable",
+    "name": "asyncHandler",
+    "memberof": "controller/ratingController.js",
+    "static": true,
+    "longname": "controller/ratingController.js~asyncHandler",
+    "access": "public",
+    "export": false,
+    "importPath": "note_sharing_backend_api/controller/ratingController.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 69,
+    "kind": "variable",
+    "name": "Rating",
+    "memberof": "controller/ratingController.js",
+    "static": true,
+    "longname": "controller/ratingController.js~Rating",
+    "access": "public",
+    "export": false,
+    "importPath": "note_sharing_backend_api/controller/ratingController.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 2,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 70,
+    "kind": "variable",
+    "name": "Note",
+    "memberof": "controller/ratingController.js",
+    "static": true,
+    "longname": "controller/ratingController.js~Note",
+    "access": "public",
+    "export": false,
+    "importPath": "note_sharing_backend_api/controller/ratingController.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 71,
+    "kind": "variable",
+    "name": "getRatings",
+    "memberof": "controller/ratingController.js",
+    "static": true,
+    "longname": "controller/ratingController.js~getRatings",
+    "access": " Public",
+    "export": false,
+    "importPath": "note_sharing_backend_api/controller/ratingController.js",
+    "importStyle": null,
+    "description": "   Get ratings for a note",
+    "lineNumber": 14,
+    "unknown": [
+      {
+        "tagName": "@route",
+        "tagValue": "  GET /api/notes/:noteId/ratings"
+      },
+      {
+        "tagName": "@returns",
+        "tagValue": "{object} 200 - An array of rating objects"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "req",
+        "description": "Express request object"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "res",
+        "description": "Express response object"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "req.params.noteId",
+        "description": "The ID of the note"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "object"
+      ],
+      "spread": false,
+      "description": "200 - An array of rating objects"
+    },
+    "ignore": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 72,
+    "kind": "variable",
+    "name": "addRating",
+    "memberof": "controller/ratingController.js",
+    "static": true,
+    "longname": "controller/ratingController.js~addRating",
+    "access": " Private",
+    "export": false,
+    "importPath": "note_sharing_backend_api/controller/ratingController.js",
+    "importStyle": null,
+    "description": "   Add a rating to a note",
+    "lineNumber": 30,
+    "unknown": [
+      {
+        "tagName": "@route",
+        "tagValue": "  POST /api/notes/:noteId/ratings"
+      },
+      {
+        "tagName": "@returns",
+        "tagValue": "{object} 201 - The created rating object"
+      },
+      {
+        "tagName": "@returns",
+        "tagValue": "{Error}  404 - Note not found"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "req",
+        "description": "Express request object"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "res",
+        "description": "Express response object"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "req.params.noteId",
+        "description": "The ID of the note"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "req.body.value",
+        "description": "The rating value (e.g., 1-5)"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Error"
+      ],
+      "spread": false,
+      "description": "404 - Note not found"
+    },
+    "ignore": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 73,
+    "kind": "file",
+    "name": "controller/userController.js",
+    "content": "const asyncHandler = require(\"express-async-handler\");\nconst crypto = require(\"crypto\");\nconst User = require(\"../models/userModel\");\nconst generateToken = require(\"../utils/generateToken\");\nconst sendEmail = require(\"../utils/sendEmail\");\n\n/**\n * @desc    Register a new user\n * @route   POST /api/users\n * @access  Public\n * @param {object} req - Express request object\n * @param {object} res - Express response object\n * @param {string} req.body.username - The user's username\n * @param {string} req.body.email - The user's email address\n * @param {string} req.body.password - The user's password\n * @returns {object} 201 - An object containing the user's data and a JWT token\n * @returns {Error}  400 - User with this email or username already exists\n * @returns {Error}  400 - Invalid user data\n * @returns {Error}  500 - Email could not be sent\n */\nconst registerUser = asyncHandler(async (req, res) => {\n    const { username, email, password } = req.body;\n\n    // Check if a user with the given email or username already exists\n    const userExists = await User.findOne({ $or: [{ email }, { username }] });\n\n    if (userExists) {\n        res.status(400);\n        throw new Error(\"User with this email or username already exists\");\n    }\n\n    // Create a new user\n    const user = await User.create({\n        username,\n        email,\n        password,\n    });\n\n    // If the user is created successfully, send verification email\n    if (user) {\n        const verificationToken = user.getVerificationToken();\n        await user.save({ validateBeforeSave: false });\n\n        const verificationUrl = `${req.protocol}://${req.get('host')}/api/users/verifyemail/${verificationToken}`;\n\n        const message = `Please verify your email by clicking on this link: <a href=\"${verificationUrl}\">${verificationUrl}</a>`;\n\n        try {\n            await sendEmail({\n                email: user.email,\n                subject: 'Email Verification',\n                message,\n            });\n\n            res.status(201).json({\n                _id: user._id,\n                username: user.username,\n                email: user.email,\n                role: user.role,\n                token: generateToken(user._id),\n                message: 'Verification email sent to your email address',\n            });\n        } catch (error) {\n            user.emailVerificationToken = undefined;\n            user.emailVerificationExpires = undefined;\n            await user.save({ validateBeforeSave: false });\n\n            res.status(500);\n            throw new Error('Email could not be sent');\n        }\n    } else {\n        res.status(400);\n        throw new Error(\"Invalid user data\");\n    }\n});\n\n/**\n * @desc    Auth user & get token\n * @route   POST /api/users/login\n * @access  Public\n * @param {object} req - Express request object\n * @param {object} res - Express response object\n * @param {string} req.body.login - The user's email or username\n * @param {string} req.body.password - The user's password\n * @returns {object} 200 - An object containing the user's data and a JWT token\n * @returns {Error}  401 - Invalid password\n * @returns {Error}  401 - User not found\n * @returns {Error}  401 - Please verify your email first\n */\nconst authUser = asyncHandler(async (req, res) => {\n    const { login, password } = req.body;\n\n    // Find the user by email or username\n    const user = await User.findOne({ \n        $or: [{ email: login }, { username: login }],\n     });\n\n    // If the user exists and the password matches, return the user's data and a token\n    if (user) {\n        if (await user.matchPassword(password)) {\n            if (!user.isVerified) {\n                res.status(401);\n                throw new Error(\"Please verify your email first\");\n            }\n            res.json({\n                _id: user._id,\n                username: user.username,\n                email: user.email,\n                role: user.role,\n                token: generateToken(user._id),\n            });\n        } else {\n            res.status(401);\n            throw new Error(\"Invalid password\");\n        }\n    } else {\n        res.status(401);\n        throw new Error(\"User not found\");\n    }\n});\n\n/**\n * @desc    Verify user email\n * @route   GET /api/users/verifyemail/:token\n * @access  Public\n * @param {object} req - Express request object\n * @param {object} res - Express response object\n * @param {string} req.params.token - The email verification token\n * @returns {object} 200 - Email verified successfully\n * @returns {Error}  400 - Invalid or expired token\n */\nconst verifyEmail = asyncHandler(async (req, res) => {\n    const verificationToken = crypto.createHash('sha256').update(req.params.token).digest('hex');\n\n    const user = await User.findOne({\n        emailVerificationToken: verificationToken,\n        emailVerificationExpires: { $gt: Date.now() },\n    });\n\n    if (!user) {\n        res.status(400);\n        throw new Error('Invalid or expired token');\n    }\n\n    user.isVerified = true;\n    user.emailVerificationToken = undefined;\n    user.emailVerificationExpires = undefined;\n    await user.save();\n\n    res.status(200).json({ message: 'Email verified successfully' });\n});\n\n/**\n * @desc    Forgot password\n * @route   POST /api/users/forgotpassword\n * @access  Public\n * @param {object} req - Express request object\n * @param {object} res - Express response object\n * @param {string} req.body.email - The user's email address\n * @returns {object} 200 - Token sent to email\n * @returns {Error}  404 - User not found with that email\n * @returns {Error}  500 - Email could not be sent\n */\nconst forgotPassword = asyncHandler(async (req, res) => {\n    const { email } = req.body;\n\n    const user = await User.findOne({ email });\n\n    if (!user) {\n        res.status(404);\n        throw new Error('User not found with that email');\n    }\n\n    const resetToken = user.getVerificationToken(); // Reusing getVerificationToken for password reset\n    await user.save({ validateBeforeSave: false });\n\n    const resetUrl = `${req.protocol}://${req.get('host')}/api/users/resetpassword/${resetToken}`;\n\n    const message = `You are receiving this email because you (or someone else) has requested the reset of a password. Please make a PUT request to: <a href=\"${resetUrl}\">${resetUrl}</a>. If you did not request this, please ignore this email and your password will remain unchanged.`;\n\n    try {\n        await sendEmail({\n            email: user.email,\n            subject: 'Password Reset Token',\n            message,\n        });\n\n        res.status(200).json({ message: 'Token sent to email' });\n    } catch (error) {\n        user.emailVerificationToken = undefined;\n        user.emailVerificationExpires = undefined;\n        await user.save({ validateBeforeSave: false });\n\n        res.status(500);\n        throw new Error('Email could not be sent');\n    }\n});\n\n/**\n * @desc    Reset password\n * @route   PUT /api/users/resetpassword/:token\n * @access  Public\n * @param {object} req - Express request object\n * @param {object} res - Express response object\n * @param {string} req.params.token - The password reset token\n * @param {string} req.body.password - The new password\n * @returns {object} 200 - Password reset successfully\n * @returns {Error}  400 - Invalid or expired token\n */\nconst resetPassword = asyncHandler(async (req, res) => {\n    const resetToken = crypto.createHash('sha256').update(req.params.token).digest('hex');\n\n    const user = await User.findOne({\n        emailVerificationToken: resetToken,\n        emailVerificationExpires: { $gt: Date.now() },\n    });\n\n    if (!user) {\n        res.status(400);\n        throw new Error('Invalid or expired token');\n    }\n\n    user.password = req.body.password;\n    user.emailVerificationToken = undefined;\n    user.emailVerificationExpires = undefined;\n    await user.save();\n\n    res.status(200).json({ message: 'Password reset successfully' });\n});\n\nmodule.exports = { registerUser, authUser, verifyEmail, forgotPassword, resetPassword };\n",
+    "static": true,
+    "longname": "D:/6th sem/express/controller/userController.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 74,
+    "kind": "variable",
+    "name": "asyncHandler",
+    "memberof": "controller/userController.js",
+    "static": true,
+    "longname": "controller/userController.js~asyncHandler",
+    "access": "public",
+    "export": false,
+    "importPath": "note_sharing_backend_api/controller/userController.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 75,
+    "kind": "variable",
+    "name": "crypto",
+    "memberof": "controller/userController.js",
+    "static": true,
+    "longname": "controller/userController.js~crypto",
+    "access": "public",
+    "export": false,
+    "importPath": "note_sharing_backend_api/controller/userController.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 2,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 76,
+    "kind": "variable",
+    "name": "User",
+    "memberof": "controller/userController.js",
+    "static": true,
+    "longname": "controller/userController.js~User",
+    "access": "public",
+    "export": false,
+    "importPath": "note_sharing_backend_api/controller/userController.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 77,
+    "kind": "variable",
+    "name": "generateToken",
+    "memberof": "controller/userController.js",
+    "static": true,
+    "longname": "controller/userController.js~generateToken",
+    "access": "public",
+    "export": false,
+    "importPath": "note_sharing_backend_api/controller/userController.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 4,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 78,
+    "kind": "variable",
+    "name": "sendEmail",
+    "memberof": "controller/userController.js",
+    "static": true,
+    "longname": "controller/userController.js~sendEmail",
+    "access": "public",
+    "export": false,
+    "importPath": "note_sharing_backend_api/controller/userController.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 5,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 79,
+    "kind": "variable",
+    "name": "registerUser",
+    "memberof": "controller/userController.js",
+    "static": true,
+    "longname": "controller/userController.js~registerUser",
+    "access": " Public",
+    "export": false,
+    "importPath": "note_sharing_backend_api/controller/userController.js",
+    "importStyle": null,
+    "description": "   Register a new user",
+    "lineNumber": 21,
+    "unknown": [
+      {
+        "tagName": "@route",
+        "tagValue": "  POST /api/users"
+      },
+      {
+        "tagName": "@returns",
+        "tagValue": "{object} 201 - An object containing the user's data and a JWT token"
+      },
+      {
+        "tagName": "@returns",
+        "tagValue": "{Error}  400 - User with this email or username already exists"
+      },
+      {
+        "tagName": "@returns",
+        "tagValue": "{Error}  400 - Invalid user data"
+      },
+      {
+        "tagName": "@returns",
+        "tagValue": "{Error}  500 - Email could not be sent"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "req",
+        "description": "Express request object"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "res",
+        "description": "Express response object"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "req.body.username",
+        "description": "The user's username"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "req.body.email",
+        "description": "The user's email address"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "req.body.password",
+        "description": "The user's password"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Error"
+      ],
+      "spread": false,
+      "description": "500 - Email could not be sent"
+    },
+    "ignore": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 80,
+    "kind": "variable",
+    "name": "authUser",
+    "memberof": "controller/userController.js",
+    "static": true,
+    "longname": "controller/userController.js~authUser",
+    "access": " Public",
+    "export": false,
+    "importPath": "note_sharing_backend_api/controller/userController.js",
+    "importStyle": null,
+    "description": "   Auth user & get token",
+    "lineNumber": 90,
+    "unknown": [
+      {
+        "tagName": "@route",
+        "tagValue": "  POST /api/users/login"
+      },
+      {
+        "tagName": "@returns",
+        "tagValue": "{object} 200 - An object containing the user's data and a JWT token"
+      },
+      {
+        "tagName": "@returns",
+        "tagValue": "{Error}  401 - Invalid password"
+      },
+      {
+        "tagName": "@returns",
+        "tagValue": "{Error}  401 - User not found"
+      },
+      {
+        "tagName": "@returns",
+        "tagValue": "{Error}  401 - Please verify your email first"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "req",
+        "description": "Express request object"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "res",
+        "description": "Express response object"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "req.body.login",
+        "description": "The user's email or username"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "req.body.password",
+        "description": "The user's password"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Error"
+      ],
+      "spread": false,
+      "description": "401 - Please verify your email first"
+    },
+    "ignore": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 81,
+    "kind": "variable",
+    "name": "verifyEmail",
+    "memberof": "controller/userController.js",
+    "static": true,
+    "longname": "controller/userController.js~verifyEmail",
+    "access": " Public",
+    "export": false,
+    "importPath": "note_sharing_backend_api/controller/userController.js",
+    "importStyle": null,
+    "description": "   Verify user email",
+    "lineNumber": 132,
+    "unknown": [
+      {
+        "tagName": "@route",
+        "tagValue": "  GET /api/users/verifyemail/:token"
+      },
+      {
+        "tagName": "@returns",
+        "tagValue": "{object} 200 - Email verified successfully"
+      },
+      {
+        "tagName": "@returns",
+        "tagValue": "{Error}  400 - Invalid or expired token"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "req",
+        "description": "Express request object"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "res",
+        "description": "Express response object"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "req.params.token",
+        "description": "The email verification token"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Error"
+      ],
+      "spread": false,
+      "description": "400 - Invalid or expired token"
+    },
+    "ignore": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 82,
+    "kind": "variable",
+    "name": "forgotPassword",
+    "memberof": "controller/userController.js",
+    "static": true,
+    "longname": "controller/userController.js~forgotPassword",
+    "access": " Public",
+    "export": false,
+    "importPath": "note_sharing_backend_api/controller/userController.js",
+    "importStyle": null,
+    "description": "   Forgot password",
+    "lineNumber": 164,
+    "unknown": [
+      {
+        "tagName": "@route",
+        "tagValue": "  POST /api/users/forgotpassword"
+      },
+      {
+        "tagName": "@returns",
+        "tagValue": "{object} 200 - Token sent to email"
+      },
+      {
+        "tagName": "@returns",
+        "tagValue": "{Error}  404 - User not found with that email"
+      },
+      {
+        "tagName": "@returns",
+        "tagValue": "{Error}  500 - Email could not be sent"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "req",
+        "description": "Express request object"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "res",
+        "description": "Express response object"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "req.body.email",
+        "description": "The user's email address"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Error"
+      ],
+      "spread": false,
+      "description": "500 - Email could not be sent"
+    },
+    "ignore": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 83,
+    "kind": "variable",
+    "name": "resetPassword",
+    "memberof": "controller/userController.js",
+    "static": true,
+    "longname": "controller/userController.js~resetPassword",
+    "access": " Public",
+    "export": false,
+    "importPath": "note_sharing_backend_api/controller/userController.js",
+    "importStyle": null,
+    "description": "   Reset password",
+    "lineNumber": 210,
+    "unknown": [
+      {
+        "tagName": "@route",
+        "tagValue": "  PUT /api/users/resetpassword/:token"
+      },
+      {
+        "tagName": "@returns",
+        "tagValue": "{object} 200 - Password reset successfully"
+      },
+      {
+        "tagName": "@returns",
+        "tagValue": "{Error}  400 - Invalid or expired token"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "req",
+        "description": "Express request object"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "res",
+        "description": "Express response object"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "req.params.token",
+        "description": "The password reset token"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "req.body.password",
+        "description": "The new password"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Error"
+      ],
+      "spread": false,
+      "description": "400 - Invalid or expired token"
+    },
+    "ignore": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "kind": "index",
+    "content": "# Note Sharing Backend API\n\nThis is an Express.js project for a note-sharing application. It provides a RESTful API for creating, reading, updating, and deleting notes.\n",
+    "longname": "D:\\6th sem\\express\\README.md",
+    "name": "./README.md",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "packageJSON",
+    "content": "{\n  \"name\": \"note_sharing_backend_api\",\n  \"version\": \"1.0.0\",\n  \"description\": \"\\\"this is express project backend api\\\"\",\n  \"license\": \"ISC\",\n  \"author\": \"\\\"Sushant Adhikari\\\"\",\n  \"type\": \"commonjs\",\n  \"main\": \"server.js\",\n  \"scripts\": {\n    \"test\": \"echo \\\"Error: no test specified\\\" && exit 1\",\n    \"start\": \"node server.js\",\n    \"dev\": \"nodemon server.js\",\n    \"prod\": \"pm2 start server.js -i 0\",\n    \"docs\": \"esdoc\"\n  },\n  \"dependencies\": {\n    \"@sendgrid/mail\": \"^8.1.5\",\n    \"bcryptjs\": \"^3.0.2\",\n    \"dotenv\": \"^17.0.0\",\n    \"express\": \"^5.1.0\",\n    \"express-async-handler\": \"^1.2.0\",\n    \"express-validator\": \"^7.2.1\",\n    \"jsonwebtoken\": \"^9.0.2\",\n    \"mongoose\": \"^8.16.1\",\n    \"multer\": \"^2.0.1\",\n    \"nodemon\": \"^3.1.10\"\n  },\n  \"devDependencies\": {\n    \"esdoc\": \"^1.1.0\",\n    \"esdoc-standard-plugin\": \"^1.0.0\"\n  }\n}\n",
+    "longname": "D:\\6th sem\\express\\package.json",
+    "name": "package.json",
+    "static": true,
+    "access": "public"
+  }
+]

@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../">
+  <title data-ice="title">controller/userController.js | note_sharing_backend_api</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+<meta name="description" content this is express project backend api""><meta property="twitter:card" content="summary"><meta property="twitter:title" content="note_sharing_backend_api"><meta property="twitter:description" content this is express project backend api""></head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+</header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  </ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">controller/userController.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">const asyncHandler = require(&quot;express-async-handler&quot;);
+const crypto = require(&quot;crypto&quot;);
+const User = require(&quot;../models/userModel&quot;);
+const generateToken = require(&quot;../utils/generateToken&quot;);
+const sendEmail = require(&quot;../utils/sendEmail&quot;);
+
+/**
+ * @desc    Register a new user
+ * @route   POST /api/users
+ * @access  Public
+ * @param {object} req - Express request object
+ * @param {object} res - Express response object
+ * @param {string} req.body.username - The user&apos;s username
+ * @param {string} req.body.email - The user&apos;s email address
+ * @param {string} req.body.password - The user&apos;s password
+ * @returns {object} 201 - An object containing the user&apos;s data and a JWT token
+ * @returns {Error}  400 - User with this email or username already exists
+ * @returns {Error}  400 - Invalid user data
+ * @returns {Error}  500 - Email could not be sent
+ */
+const registerUser = asyncHandler(async (req, res) =&gt; {
+    const { username, email, password } = req.body;
+
+    // Check if a user with the given email or username already exists
+    const userExists = await User.findOne({ $or: [{ email }, { username }] });
+
+    if (userExists) {
+        res.status(400);
+        throw new Error(&quot;User with this email or username already exists&quot;);
+    }
+
+    // Create a new user
+    const user = await User.create({
+        username,
+        email,
+        password,
+    });
+
+    // If the user is created successfully, send verification email
+    if (user) {
+        const verificationToken = user.getVerificationToken();
+        await user.save({ validateBeforeSave: false });
+
+        const verificationUrl = `${req.protocol}://${req.get(&apos;host&apos;)}/api/users/verifyemail/${verificationToken}`;
+
+        const message = `Please verify your email by clicking on this link: &lt;a href=&quot;${verificationUrl}&quot;&gt;${verificationUrl}&lt;/a&gt;`;
+
+        try {
+            await sendEmail({
+                email: user.email,
+                subject: &apos;Email Verification&apos;,
+                message,
+            });
+
+            res.status(201).json({
+                _id: user._id,
+                username: user.username,
+                email: user.email,
+                role: user.role,
+                token: generateToken(user._id),
+                message: &apos;Verification email sent to your email address&apos;,
+            });
+        } catch (error) {
+            user.emailVerificationToken = undefined;
+            user.emailVerificationExpires = undefined;
+            await user.save({ validateBeforeSave: false });
+
+            res.status(500);
+            throw new Error(&apos;Email could not be sent&apos;);
+        }
+    } else {
+        res.status(400);
+        throw new Error(&quot;Invalid user data&quot;);
+    }
+});
+
+/**
+ * @desc    Auth user &amp; get token
+ * @route   POST /api/users/login
+ * @access  Public
+ * @param {object} req - Express request object
+ * @param {object} res - Express response object
+ * @param {string} req.body.login - The user&apos;s email or username
+ * @param {string} req.body.password - The user&apos;s password
+ * @returns {object} 200 - An object containing the user&apos;s data and a JWT token
+ * @returns {Error}  401 - Invalid password
+ * @returns {Error}  401 - User not found
+ * @returns {Error}  401 - Please verify your email first
+ */
+const authUser = asyncHandler(async (req, res) =&gt; {
+    const { login, password } = req.body;
+
+    // Find the user by email or username
+    const user = await User.findOne({ 
+        $or: [{ email: login }, { username: login }],
+     });
+
+    // If the user exists and the password matches, return the user&apos;s data and a token
+    if (user) {
+        if (await user.matchPassword(password)) {
+            if (!user.isVerified) {
+                res.status(401);
+                throw new Error(&quot;Please verify your email first&quot;);
+            }
+            res.json({
+                _id: user._id,
+                username: user.username,
+                email: user.email,
+                role: user.role,
+                token: generateToken(user._id),
+            });
+        } else {
+            res.status(401);
+            throw new Error(&quot;Invalid password&quot;);
+        }
+    } else {
+        res.status(401);
+        throw new Error(&quot;User not found&quot;);
+    }
+});
+
+/**
+ * @desc    Verify user email
+ * @route   GET /api/users/verifyemail/:token
+ * @access  Public
+ * @param {object} req - Express request object
+ * @param {object} res - Express response object
+ * @param {string} req.params.token - The email verification token
+ * @returns {object} 200 - Email verified successfully
+ * @returns {Error}  400 - Invalid or expired token
+ */
+const verifyEmail = asyncHandler(async (req, res) =&gt; {
+    const verificationToken = crypto.createHash(&apos;sha256&apos;).update(req.params.token).digest(&apos;hex&apos;);
+
+    const user = await User.findOne({
+        emailVerificationToken: verificationToken,
+        emailVerificationExpires: { $gt: Date.now() },
+    });
+
+    if (!user) {
+        res.status(400);
+        throw new Error(&apos;Invalid or expired token&apos;);
+    }
+
+    user.isVerified = true;
+    user.emailVerificationToken = undefined;
+    user.emailVerificationExpires = undefined;
+    await user.save();
+
+    res.status(200).json({ message: &apos;Email verified successfully&apos; });
+});
+
+/**
+ * @desc    Forgot password
+ * @route   POST /api/users/forgotpassword
+ * @access  Public
+ * @param {object} req - Express request object
+ * @param {object} res - Express response object
+ * @param {string} req.body.email - The user&apos;s email address
+ * @returns {object} 200 - Token sent to email
+ * @returns {Error}  404 - User not found with that email
+ * @returns {Error}  500 - Email could not be sent
+ */
+const forgotPassword = asyncHandler(async (req, res) =&gt; {
+    const { email } = req.body;
+
+    const user = await User.findOne({ email });
+
+    if (!user) {
+        res.status(404);
+        throw new Error(&apos;User not found with that email&apos;);
+    }
+
+    const resetToken = user.getVerificationToken(); // Reusing getVerificationToken for password reset
+    await user.save({ validateBeforeSave: false });
+
+    const resetUrl = `${req.protocol}://${req.get(&apos;host&apos;)}/api/users/resetpassword/${resetToken}`;
+
+    const message = `You are receiving this email because you (or someone else) has requested the reset of a password. Please make a PUT request to: &lt;a href=&quot;${resetUrl}&quot;&gt;${resetUrl}&lt;/a&gt;. If you did not request this, please ignore this email and your password will remain unchanged.`;
+
+    try {
+        await sendEmail({
+            email: user.email,
+            subject: &apos;Password Reset Token&apos;,
+            message,
+        });
+
+        res.status(200).json({ message: &apos;Token sent to email&apos; });
+    } catch (error) {
+        user.emailVerificationToken = undefined;
+        user.emailVerificationExpires = undefined;
+        await user.save({ validateBeforeSave: false });
+
+        res.status(500);
+        throw new Error(&apos;Email could not be sent&apos;);
+    }
+});
+
+/**
+ * @desc    Reset password
+ * @route   PUT /api/users/resetpassword/:token
+ * @access  Public
+ * @param {object} req - Express request object
+ * @param {object} res - Express response object
+ * @param {string} req.params.token - The password reset token
+ * @param {string} req.body.password - The new password
+ * @returns {object} 200 - Password reset successfully
+ * @returns {Error}  400 - Invalid or expired token
+ */
+const resetPassword = asyncHandler(async (req, res) =&gt; {
+    const resetToken = crypto.createHash(&apos;sha256&apos;).update(req.params.token).digest(&apos;hex&apos;);
+
+    const user = await User.findOne({
+        emailVerificationToken: resetToken,
+        emailVerificationExpires: { $gt: Date.now() },
+    });
+
+    if (!user) {
+        res.status(400);
+        throw new Error(&apos;Invalid or expired token&apos;);
+    }
+
+    user.password = req.body.password;
+    user.emailVerificationToken = undefined;
+    user.emailVerificationExpires = undefined;
+    await user.save();
+
+    res.status(200).json({ message: &apos;Password reset successfully&apos; });
+});
+
+module.exports = { registerUser, authUser, verifyEmail, forgotPassword, resetPassword };
+</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>
