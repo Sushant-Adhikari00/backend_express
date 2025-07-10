@@ -6,8 +6,10 @@ const dotenv = require("dotenv").config();
 connectDB();
 
 const app =express();
+const cors = require("cors");
 
 const port = process.env.PORT || 5000;
+app.use(cors());
 app.use(express.json());
 app.use("/api/notes", require("./routes/notesRoutes"));
 app.use("/api/users", require("./routes/userRoutes"));
